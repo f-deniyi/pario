@@ -29,7 +29,7 @@ const PaymentSuccess = ({ setActiveTab }) => {
             marginBottom: '30px'
           }}
         >
-          <h3 className='section-title' style={{
+          <h3 className='section-title-succcess' style={{
             margin:0
           }}>Purchase Completed</h3>
         </div>

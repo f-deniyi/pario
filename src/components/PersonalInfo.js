@@ -2,9 +2,7 @@ import React from 'react'
 
 const PersonalInfo = ({ setActiveTab }) => {
   return (
-    <div className='personal-info' style={{
-        marginTop:'84px'
-    }}>
+    <div className='personal-info' >
       <form>
         <div
           className=''
@@ -72,12 +70,7 @@ const PersonalInfo = ({ setActiveTab }) => {
           </div>
         </div>
         <div
-          style={{
-            display: 'flex',
-            flexWrap: 'wrap',
-            alignItems: 'center',
-            marginBottom: '80px'
-          }}
+       
         >
           <div>
             <button

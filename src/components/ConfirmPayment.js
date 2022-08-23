@@ -24,13 +24,7 @@ const ConfirmPayment = ({ setActiveTab }) => {
         </div>
 
         <div className='payment-wrapper'>
-          <div
-            style={{
-              padding: '0 89px 0 38.2px  ',
-              borderBottom: '1px solid #817e9e',
-              marginBottom: '39px'
-            }}
-          >
+          <div className='payment-container'>
             <div
               style={{
                 display: 'flex',
@@ -66,14 +60,7 @@ const ConfirmPayment = ({ setActiveTab }) => {
           </div>
         </div>
       </div>
-      <div
-        style={{
-          display: 'flex',
-          flexWrap: 'wrap',
-          alignItems: 'center',
-          marginBottom: '80px'
-        }}
-      >
+      <div className='ctrl-container'>
         <div>
           <button
             className='next-button'

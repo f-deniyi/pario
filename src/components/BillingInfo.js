@@ -63,14 +63,7 @@ const BillingInfo = ({ setActiveTab }) => {
             <input type='number' placeholder='923' className='cvv' />
           </div>
         </div>
-        <div
-          style={{
-            display: 'flex',
-            flexWrap: 'wrap',
-            alignItems: 'center',
-            marginBottom: '80px'
-          }}
-        >
+        <div className='ctrl-container'>
           <div>
             <button
               className='next-button'

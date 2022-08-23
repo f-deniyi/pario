@@ -6,7 +6,7 @@ body {
   background: url("/src/assets/image/bgImage.png");
   background-position: top;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 html {
   box-sizing: border-box;
@@ -45,7 +45,8 @@ input[type="number"] {
   min-height: 100vh;
 }
 
-.section-title {
+.section-title,
+.section-title-succcess {
   font-weight: 700;
   font-size: 36px;
   color: #4e598c;
@@ -79,6 +80,9 @@ input[type="number"] {
   border-radius: 10px;
   height: 10px;
   width: 100%;
+}
+.personal-info {
+  margin-top: 84px;
 }
 label {
   font-weight: 700;
@@ -191,6 +195,11 @@ input.card-details {
 .confirm-payment {
   margin-top: 47px;
 }
+.payment-container {
+  padding: 0 89px 0 38.2px;
+  border-bottom: 1px solid #817e9e;
+  margin-bottom: 39px;
+}
 .confirm-payment-card {
   background: white;
   box-shadow: 0px 10px 15px rgba(33, 30, 67, 0.08);
@@ -245,7 +254,6 @@ input.card-details {
   border-radius: 10px;
   padding: 67px 0 90px 0;
   margin-top: 337.5px;
-
 }
 .payment-success-card-wrapper {
   margin: auto;
@@ -275,4 +283,105 @@ input.card-details {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
+  text-decoration: underline;
+}
+.ctrl-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+}
+@media (max-width: 767px) {
+  .main {
+    margin: 90px auto 0;
+    width: 80%;
+  }
+  .section-title {
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #4e598c;
+    margin-bottom: 59px;
+  }
+  .section-title-succcess {
+    font-size: 1.6rem !important;
+    margin-top: 12px;
+  }
+
+  .tab {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  .tab.active-tab::before {
+    margin-bottom: 12px;
+  }
+  .tab-container {
+    margin-bottom: 30px;
+  }
+  .personal-info {
+    margin-top: 20px;
+  }
+  input {
+    margin-top: 8px;
+  }
+  label {
+    font-size: 16px;
+  }
+  input,
+  select {
+    padding: 14px 22px;
+    font-size: 16px;
+    /* margin-bottom: 44px; */
+  }
+  ::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    color: #4f4f4f;
+  }
+  .form-grid {
+    display: block;
+  }
+  .form-grid div:last-child {
+    margin-top: 11px;
+  }
+  .next-button {
+    width: 100%;
+    font-size: 18px;
+  }
+  .form-grid-3 {
+    display: block;
+  }
+  .confirm-payment {
+    margin-top: 47px;
+  }
+
+  .confirm-payment-card-header {
+    background: #2f80ed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+  }
+  .payment-wrapper {
+    padding: 20px;
+    margin-top: 50px;
+  }
+  .payment-description {
+    font-size: 16px;
+  }
+  .payment-value {
+    font-size: 14px;
+  }
+  .payment-container {
+    padding: 0;
+  }
+  .total-payout-wrapper {
+    padding: 14px;
+  }
+  .payment-success-text,
+  .return-link {
+    font-size: 16px;
+  }
+  .ctrl-container {
+    display: block;
+  }
 }
