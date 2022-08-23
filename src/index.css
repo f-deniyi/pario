@@ -283,7 +283,7 @@ input.card-details {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
-  text-decoration: underline;
+  text-decoration: underline !important;
 }
 .ctrl-container {
   display: flex;
@@ -383,5 +383,8 @@ input.card-details {
   }
   .ctrl-container {
     display: block;
+  }
+  .payment-success-card {
+    margin-top: 30.5px !important;
   }
 }
