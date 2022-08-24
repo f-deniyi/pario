@@ -283,6 +283,8 @@ input.card-details {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
+}
+a{
   text-decoration: underline !important;
 }
 .ctrl-container {

@@ -2,7 +2,7 @@ import React from 'react'
 
 const PersonalInfo = ({ setActiveTab }) => {
   return (
-    <div className='personal-info' >
+    <div className='personal-info'>
       <form>
         <div
           className=''
@@ -69,9 +69,7 @@ const PersonalInfo = ({ setActiveTab }) => {
             </select>
           </div>
         </div>
-        <div
-       
-        >
+        <div className='ctrl-container'>
           <div>
             <button
               className='next-button'
@@ -83,7 +81,9 @@ const PersonalInfo = ({ setActiveTab }) => {
             </button>
           </div>
           <div role='button'>
-            <p role='button'  className='cancel-text'>Cancel Payment</p>
+            <p role='button' className='cancel-text'>
+              Cancel Payment
+            </p>
           </div>
         </div>
       </form>
