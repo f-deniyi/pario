@@ -385,6 +385,6 @@ input.card-details {
     display: block;
   }
   .payment-success-card {
-    margin-top: 30.5px !important;
+    margin-top: 30.5px;
   }
 }
