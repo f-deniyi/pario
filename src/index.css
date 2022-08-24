@@ -6,7 +6,7 @@ body {
   background: url("/src/assets/image/bgImage.png");
   background-position: top;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 html {
   box-sizing: border-box;
@@ -386,5 +386,9 @@ input.card-details {
   }
   .payment-success-card {
     margin-top: 30.5px;
+  }
+  body {
+
+    background-size: cover;
   }
 }
